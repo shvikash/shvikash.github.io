@@ -1,0 +1,17 @@
+{% assign certifications = site.data.data.certifications %}
+{% if certifications %}
+<section class="certifications">
+    <h2 class="title">Certifications</h2>
+    <div class="certifications-list">
+        <ul>
+            {% for item in certifications %}
+                {% if item.credential %}
+                    <li><a href="{{item.credential}}"><div class="details">{{item.certificate}}</div></a></li>
+                {% else %}
+                    <li><div class="details">{{item.certificate}}</div></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}

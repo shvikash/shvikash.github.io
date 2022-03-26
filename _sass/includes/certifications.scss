@@ -1,0 +1,10 @@
+.certifications {
+    .title {
+        @include header;
+    }
+    .certifications-list {
+        .details {
+            @include body-text;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{% assign history = site.data.data.history %}
+{% if history %}
+<section class="history">
+    <h2 class="title">Work History</h2>
+    {% for item in history %}
+    <div class="history-item">
+        <div class="role">
+            {{item.role}}
+        </div>
+        <div class="company">
+            {{item.company}} 
+            <span class="time">{{item.time}}</span>
+        </div>
+        <div class="customers"><b>Customers:</b> {{item.customers}}</div>
+        <div class="locations"><b>Locations:</b> {{item.locations}}</div>
+    </div><br>
+    {% endfor %}
+</section>
+{% endif %}

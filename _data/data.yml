@@ -1,0 +1,88 @@
+name: Vikash Sharma
+support_dark_mode: true
+
+# Sidebar
+contact:
+  email: sharma.vikash@outlook.com
+  github: vik4shsh4rma
+  linkedin: vikash-sharma-854a4b56
+  phone: 0470450831
+  gitlab: sharmavikash
+
+languages:
+  - idiom: English
+  - idiom: Hindi
+
+education:
+  - degree: B.E. (Computer Science)
+    time: 2000-2004
+    university: VTU, Belgaum (India)
+
+# Profile
+profile: |
+  Passionate software engineer with over seventeen years of experience of working in core information technology with strong grasp on computer programming. Very focused on implementing high quality automation solutions for management of infrastructure, platform and application environment/confurations on cloud and on-premise.
+  Immense hands on experience in infrastructure as code, devops practices, application infrastructure and software delivery automation, platform engineering, CICD, and enterprise application integration.
+
+# Skills
+skills:
+  - category: Cloud Platforms
+    details: AWS, GCP
+  - category: AWS
+    details: IAM, VPC, S3, Autoscaling Groups, EC2, EBS, EFS, AMI, RedShift, RDS, Lambda, KMS, ALB/ELB, SNS, SQS, Dynamo DB, ECS
+  - category: IAC
+    details: Hashicorp Terraform, Packer, Cloudformation, Python SDK (boto3)
+  - category: Configuration Management
+    details: Ansible, Puppet, Chef
+  - category: CICD
+    details: Jenkins, Codefresh, Bamboo
+  - category: Programming Languages
+    details: Shell, Python, Go Lang, Jython, Groovy, Perl, Java, Java Script, C, C++
+  - category: OS
+    details: Linux (RHEL, CentOS, Amazon Linux, Solaris), Windows Servers
+  - category: Security
+    details: Hashicorp Vault, Prisma Cloud & Prisma Compute (Twistlock)
+  - category: Databases and Query Languages
+    details: Oracle, Postgres, MySQL, PL/SQL, SQL
+  - category: Version Control
+    details: Git, Subversion
+  - category: Monitoring
+    details: Nagios, Splunk
+
+# Expertise
+expertise:
+  - Infrastructure as Code (IAC), cloud platform configuration management using Terraform, Cloudformation
+  - Software/Application configuration management using Ansible, Puppet
+  - CICD Pipelines using Codefresh, Jenkins
+  - Kubernetes Deployments using Helm, Kubectl etc.
+  - Scripting using python, go lang, shell scripts etc.
+
+# Certifications
+certifications:
+  - certificate: HashiCorp Certified Vault Associate
+    credential: https://www.credly.com/badges/5ebedc97-e856-4a6a-9f95-e264b559ba58
+  - certificate: IBM Certified System Administrator for WebSphere Application Server Network Deployment V8.0.
+  - certificate: Sun Certified Web Component Developer (SCWCD) for J2EE-1.4
+  - certificate: Sun Certified Java Programmer (SCJP 1.4)
+
+# Work History
+history:
+  - role: Platform/DevOps Engineer
+    company: Ampion
+    time: May-2019 - Present
+    customers: ANZ - Australia, NAB - Australia
+    locations: Melbourne, Australia
+  - role: Devops/Middleware Engineer
+    company: DWS
+    time: Feb-2015 - May-2019
+    customers: NAB - Australia
+    locations: Melbourne, Australia
+  - role: Middleware/System Engineer
+    company: IBM - Australia
+    time: Oct-2014 – Jan-2015
+    customers: NAB - Australia
+    locations: Melbourne, Australia
+  - role: Middleware Engineer, Tech Lead, Application Developer
+    company: Tata Consultancy Services
+    time: Feb-2005 – Oct-2014
+    customers: GE Money - Australia, GE Money - UK, Qwest Communications - USA
+    locations: Melbourne (AU), Leeds (UK), Kolkata (IN), Chennai (IN)

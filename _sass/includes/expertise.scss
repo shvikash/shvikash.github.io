@@ -1,0 +1,10 @@
+.expertise {
+    .title {
+        @include header;
+    }
+    .expertise-list {
+        .details {
+            @include body-text;
+        }
+    }
+}

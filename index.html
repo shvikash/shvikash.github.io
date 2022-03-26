@@ -1,1 +1,21 @@
-Hello World
+---
+layout: default
+---
+<div class="container">
+  {% include header.html %}
+  <div class="container-block">
+    <div class="sidebar">
+      {% include contact.html %}
+      {% include languages.html %}
+      {% include education.html %}
+    </div>
+
+    <div class="main">
+      {% include career-profile.html %}
+      {% include skills.html %}
+      {% include expertise.html %}
+      {% include certifications.html %}
+      {% include work-history.html %}
+    </div>
+  </div>
+</div>

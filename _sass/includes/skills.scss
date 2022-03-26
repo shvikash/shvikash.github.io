@@ -1,0 +1,14 @@
+.skills {
+    .title {
+        @include header;
+    }
+    .skills-list {
+        .category {
+            @include body-text;
+            font-weight: bold;
+        }
+        .details {
+            @include body-text;
+        }
+    }
+}

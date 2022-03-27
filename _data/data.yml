@@ -4,7 +4,7 @@ support_dark_mode: true
 # Sidebar
 contact:
   email: sharma.vikash@outlook.com
-  github: vik4shsh4rma
+  github: shvikash
   linkedin: vikash-sharma-854a4b56
   phone: 0470450831
   gitlab: sharmavikash
@@ -20,7 +20,7 @@ education:
 
 # Profile
 profile: |
-  Passionate software engineer with over seventeen years of experience of working in core information technology with strong grasp on computer programming. Very focused on implementing high quality automation solutions for management of infrastructure, platform and application environment/confurations on cloud and on-premise.
+  Passionate software engineer with over seventeen years of experience of working in core information technology with strong grasp on computer programming. Very focused on implementing high quality automation solutions for management of infrastructure, platform and application environment/configurations on cloud and on-premise.
   Immense hands on experience in infrastructure as code, devops practices, application infrastructure and software delivery automation, platform engineering, CICD, and enterprise application integration.
 
 # Skills

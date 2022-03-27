@@ -21,5 +21,11 @@
         .locations {
             @include body-text;
         }
+        .responsibilities {
+            @include body-text;
+        }
+        .technologies {
+            @include body-text;
+        }
     }
 }

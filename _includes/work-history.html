@@ -13,6 +13,20 @@
         </div>
         <div class="customers"><b>Customers:</b> {{item.customers}}</div>
         <div class="locations"><b>Locations:</b> {{item.locations}}</div>
+        <div class="responsibilities"><b>Responsibilities:</b>
+            <ul style="margin-top:-2px; margin-bottom:-1px;">
+                {% for responsibility in item.responsibilities %}
+                    <li>{{responsibility}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="technologies"><b>Technologies:</b>
+            <ul style="margin-top:-2px; margin-bottom:-1px;">
+                {% for technology in item.technologies %}
+                    <li>{{technology}}</li>
+                {% endfor %}
+            </ul>
+        </div>
     </div><br>
     {% endfor %}
 </section>

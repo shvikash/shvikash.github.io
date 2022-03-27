@@ -41,6 +41,10 @@ skills:
     details: Linux (RHEL, CentOS, Amazon Linux, Solaris), Windows Servers
   - category: Security
     details: Hashicorp Vault, Prisma Cloud & Prisma Compute (Twistlock)
+  - category: Middleware
+    details: IBM WAS ND, MQ, Datapower, Apache Tomcat, Sun Glassfish Application Server
+  - category: Webserver
+    details: IBM Http Server, Apache Http Server
   - category: Databases and Query Languages
     details: Oracle, Postgres, MySQL, PL/SQL, SQL
   - category: Version Control
@@ -71,18 +75,77 @@ history:
     time: May-2019 - Present
     customers: ANZ - Australia, NAB - Australia
     locations: Melbourne, Australia
+    responsibilities:
+      - Hashicorp Vault installation & configuration into on-premise vm using puppet.
+      - Hashicorp Vault installation & configuration into Openshift, GCP, AWS using Helm.
+      - Managing Vault namespace, policies, authentication methods, secret engines using terraform, Codefresh.
+      - Define fully automated management of Codefresh configuration and job pipelines.
+      - Oracle Enterprise 11G DB installation using Ansible and Ansible Tower for a POC.
+      - Configure New Relic Dashboards and Alerts using Terraform.
+      - Create/Update AWS resources for Checkmarx and Twistlock (prisma compute).
+      - Define RQL queries on prisma cloud for security & compliance checks.
+      - Managing Jenkins jobs using Jekins job dsl and pipeline plugin.
+      - Documentation for application support & maintenance.
+    technologies:
+      - Hashicorp Vault & Terraform
+      - Openshift, GCP, AWS
+      - Puppet, Ansible
+      - Codefresh, Jenkins
+      - Shell Scripts, Python
+      - RHEL
   - role: Devops/Middleware Engineer
     company: DWS
     time: Feb-2015 - May-2019
     customers: NAB - Australia
     locations: Melbourne, Australia
+    responsibilities:
+      - Manage NAB security compliant AWS AMIs using Hashicorp Packer & Ansible.
+      - Manage deployment & configuration of AWS resources using Cloudformation & Terraform.
+      - Manage fully automated deployment & configuration of Jenkins & Pipeline jobs using ansible, groovy/jenkins job dsl.
+      - Setup application middleware environment involving IBM WAS, IBM HTTP Server and WebSphere MQ.
+      - Middleware/Application support for NAB Internet Banking.
+      - Troubleshoot, investigate and resolve application environment issues.
+      - Document production implementation steps for support team.
+    technologies:
+      - AWS
+      - Hashicorp Packer, Terraform
+      - Jenkins
+      - Ansible
+      - IBM WAS, MQ
+      - RHEL
   - role: Middleware/System Engineer
     company: IBM - Australia
     time: Oct-2014 – Jan-2015
     customers: NAB - Australia
     locations: Melbourne, Australia
+    responsibilities:
+      - Provide Middleware Environment Support into multiple projects of National Australia Bank, Australia.
+      - Setup application middleware environment involving IBM WebSphere Application Server, IBM HTTP Server and WebSphere MQ.
+      - Provide application environment support during development and testing.
+      - Troubleshoot, investigate and resolve application environment issues.
+      - Document environment configuration into Middleware Information Repository.
+    technologies:
+      - IBM WAS, MQ
+      - RHEL
   - role: Middleware Engineer, Tech Lead, Application Developer
     company: Tata Consultancy Services
     time: Feb-2005 – Oct-2014
     customers: GE Money - Australia, GE Money - UK, Qwest Communications - USA
     locations: Melbourne (AU), Leeds (UK), Kolkata (IN), Chennai (IN)
+    responsibilities:
+      - Manage installation & configurations of IBM WAS & Apache HTTP server using Chef.
+      - Support IBM Middleware (WAS, Process Server, Portal Server, MQ) for applications.
+      - Deploy and configure objects such as multi-protocol gateways, XML firewall, web service proxy etc on Websphere Datapower XI52 appliance.
+      - Prepare design of J2EE Application involving Core Java, JSP, Servlets, Tag Libraries, EJB and Web Services.
+      - Development of Core Java, J2EE application components and unit testing modules using Junit.
+      - Prepare SQL scripts to create database PL/SQL procedures, functions, package and triggers.
+      - Setup environment for continuous development, unit testing and deployments involving Subversion, Hudson
+      - Setup application web tier (apache) and app tier (Tomcat and Sun Glassfish Application Server).
+    technologies:
+      - IBM WAS, Process Server, Portal Server, MQ, Datapower, CICS Transaction Gateway (CICSTG).
+      - Shell Scripts, Jython, Python, Perl
+      - Java - 1.4, J2EE - 1.5
+      - Hibernate, Spring
+      - SQL, PL/SQL
+      - Apache Http Server, Tomcat, Sun Application Server
+      - RHEL

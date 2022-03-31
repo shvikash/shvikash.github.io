@@ -62,8 +62,10 @@ expertise:
 
 # Certifications
 certifications:
+  - certificate: HashiCorp Certified Terraform Associate
+    credential: https://www.credly.com/badges/baa8d7b1-e78c-4f99-a588-50e5e766db6f/public_url
   - certificate: HashiCorp Certified Vault Associate
-    credential: https://www.credly.com/badges/5ebedc97-e856-4a6a-9f95-e264b559ba58
+    credential: https://www.credly.com/badges/5ebedc97-e856-4a6a-9f95-e264b559ba58/public_url
   - certificate: IBM Certified System Administrator for WebSphere Application Server Network Deployment V8.0.
   - certificate: Sun Certified Web Component Developer (SCWCD) for J2EE-1.4
   - certificate: Sun Certified Java Programmer (SCJP 1.4)
